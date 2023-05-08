@@ -1,0 +1,94 @@
+.caraousel{
+    background-color: rgb(23,26,41);
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 11%;
+    padding-right: 10%;
+}
+.caraousel img{
+    width: 245px;
+}
+
+/* foodcard css  */
+
+.food-cards-list{
+        padding: 30px 10px 10px 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-bar{
+    padding: 40px 160px;
+    padding-bottom: 0px;
+    display: flex;
+    
+
+}
+.search-bar input{
+    padding: 5px;
+    /* margin-right:10px ; */
+   
+    width: 350px;
+    /* border-radius: 4px; */
+    /* border: none; */
+    /* border-bottom: 1px solid black; */
+}
+
+.search-bar button{
+    padding: 8px;
+    /* width: 150px; */
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(255, 167, 4);
+    color: white;
+font-size: 13px;
+}
+
+.food-single-card{
+    /* height: 30vh; */
+    /* height: 320px; */
+    width: 280px;
+    padding: 30px 30px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+    /* border-bottom: 1px solid #000; */
+}
+
+.food-img{
+    height: 180px;
+    width: 240px;
+        
+}
+
+.food-name{
+    padding-top: 15px  ;
+}
+.cuisine{
+    padding-top: 10px ;
+    font-size: 12.5px;
+    color: grey;
+}
+.card-bottom{
+    display: flex;
+    padding: 5px 0;
+    width: 250px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(83, 83, 83);
+    padding-top: 15px;
+}
+
+.green {
+    background-color: rgb(99, 255, 99);
+}
+.yellow{background-color: rgb(255, 234, 44);}
+
+.food-single-card:hover{
+ transform: scale(102%);
+    cursor: pointer;
+   
+}
